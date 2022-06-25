@@ -27,7 +27,7 @@ export function Signup() {
             headers:{
               'accept': 'application/json',
                           },
-            }).then(()=>history.push("/User/Login"));
+            }).then(()=>history.push("/User/Home"));
             };
                   
        return (
