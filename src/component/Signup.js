@@ -22,7 +22,7 @@ export function Signup() {
   });
    const addUser= (newUser)=>{
                console.log("onSubmit",newUser);
-                fetch(`${Api}/User/`,{method:"POST",
+                fetch(`${Api}/User`,{method:"POST",
               body:JSON.stringify(newUser),
             headers:{
               'accept': 'application/json',
